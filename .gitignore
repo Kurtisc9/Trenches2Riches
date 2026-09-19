@@ -1,0 +1,76 @@
+﻿# ============================================================
+# Trenches 2 Riches — Unreal Engine
+# ============================================================
+
+# Unreal generated directories
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Project-specific generated directories
+T2R/Binaries/
+T2R/DerivedDataCache/
+T2R/Intermediate/
+T2R/Saved/
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# VS Code local configuration
+.vscode/
+
+# Unreal generated solution/workspace files
+*.sln
+*.sdf
+*.opensdf
+
+# Build output
+Build/
+Builds/
+Staging/
+Dist/
+Release/
+Releases/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Credentials / keys
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Local project tooling
+.cache/
+temp/
+tmp/
