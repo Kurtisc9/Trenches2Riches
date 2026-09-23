@@ -1,4 +1,4 @@
-﻿# T2R LOCKED DECISIONS
+# T2R LOCKED DECISIONS
 
 All entries in this document require a KurtisC-approved Change Request
 before material modification.
@@ -6,6 +6,9 @@ before material modification.
 ## T2R-LOCK-001
 Canonical project root:
 
+X:\03_Active_Projects\Trenches2Riches
+
+Previous root superseded by KurtisC:
 X:\1_ACTIVE_WORK\Projects\Trenches2Riches
 
 Status: LOCKED
@@ -17,6 +20,9 @@ Kurtisc9/Trenches2Riches
 
 Local repository:
 
+X:\03_Active_Projects\Trenches2Riches\Repository
+
+Previous local repository path superseded by KurtisC:
 X:\1_ACTIVE_WORK\Projects\Trenches2Riches\Repository
 
 Status: LOCKED
@@ -68,3 +74,13 @@ LOCKED
 Validated directory count: 94
 
 Status: LOCKED
+
+## T2R-LOCK-007
+Project-root migration approved by KurtisC:
+
+X:\03_Active_Projects is the authoritative active-projects root.
+
+T2R canonical project root:
+X:\03_Active_Projects\Trenches2Riches
+
+Status: APPROVED → LOCKED
