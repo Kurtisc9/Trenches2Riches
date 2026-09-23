@@ -56,6 +56,9 @@ KurtisC
 T2R-P00-03 — UE5 installation/version discovery — DEFERRED by KurtisC.
 This task is not complete and remains a prerequisite for UE5-dependent technical foundation work.
 
+## Path Migration
+KurtisC approved and locked X:\\03_Active_Projects as the authoritative active-projects root. Physical PC-path migration/validation must be verified before claiming the local move complete.
+
 ## Current Blockers
 - UE5 installation/version is not yet verified.
 - Repository\T2R\T2R.uproject has not yet been created or validated.
