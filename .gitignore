@@ -1,4 +1,4 @@
-﻿# ============================================================
+# ============================================================
 # Trenches 2 Riches — Unreal Engine
 # ============================================================
 
@@ -41,6 +41,10 @@ Staging/
 Dist/
 Release/
 Releases/
+
+# Preserve authoritative project script pathway
+!Scripts/Build/
+!Scripts/Build/.gitkeep
 
 # Logs / temporary files
 *.log
