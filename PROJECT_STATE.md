@@ -1,4 +1,4 @@
-﻿# T2R PROJECT STATE
+# T2R PROJECT STATE
 
 ## Project
 Trenches 2 Riches
@@ -10,10 +10,10 @@ T2R
 T2R-P00 — Project Foundation & Source of Truth
 
 ## Current Task
-T2R-P00-01 — Repository Foundation
+T2R-P00-04 — Repository Source-of-Truth Closeout
 
 ## Status
-IMPLEMENTED — VALIDATION PENDING
+IMPLEMENTED — GITHUB VALIDATION PENDING
 
 ## Canonical Project Root
 X:\1_ACTIVE_WORK\Projects\Trenches2Riches
@@ -37,9 +37,9 @@ Repository\T2R\T2R.uproject
 Ashtabula, Ohio
 
 ## World Architecture
-World Partition
-Data Layers
-One File Per Actor
+- World Partition
+- Data Layers
+- One File Per Actor
 
 ## Version Control
 Git + Git LFS
@@ -47,8 +47,23 @@ Git + Git LFS
 ## Approval Authority
 KurtisC
 
+## Completed Foundation Tasks
+- T2R-P00-01 — Repository Foundation — COMPLETE
+- T2R-P00-02 — Initial GitHub Sync / Remote Repair — COMPLETE
+
+## Deferred Task
+T2R-P00-03 — UE5 installation/version discovery — DEFERRED by KurtisC.
+This task is not complete and remains a prerequisite for UE5-dependent technical foundation work.
+
 ## Current Blockers
-None
+- UE5 installation/version is not yet verified.
+- Repository\T2R\T2R.uproject has not yet been created or validated.
+
+## Validation
+- Canonical GitHub repository established.
+- main synchronized after T2R-P00-02.
+- Git LFS policy retained for *.uasset and *.umap.
+- Repository control-file reconciliation implemented in T2R-P00-04.
 
 ## Next Action
-Validate repository foundation, establish GitHub remote, then create the UE5 project using the verified installed Unreal Engine version.
+Validate T2R-P00-04 repository changes and merge the controlled closeout branch. Resume T2R-P00-03 before beginning UE5-dependent T2R-P01 implementation.
